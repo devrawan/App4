@@ -1,0 +1,67 @@
+.row-1{
+    
+position: absolute;
+width: 28px;
+height: 117px;
+left: 82px;
+top: 282px;
+
+font-family: Gayathri;
+font-style: normal;
+font-weight: bold;
+font-size: 96px;
+line-height: 117px;
+display: flex;
+align-items: center;
+
+color: #00DAF7;
+}
+
+.row-2{
+    position: absolute;
+width: 473px;
+height: 164px;
+left: 82px;
+top: 351px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 38px;
+/* or 190% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.row-3{
+    
+position: absolute;
+width: 124px;
+height: 38px;
+left: 82px;
+top: 574px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 38px;
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+}
+.row-4{
+    position: absolute;
+width: 33.5px;
+height: 33px;
+left: 517.5px;
+top: 639px;
+transform: matrix(1, 0, 0, 1, 0, 0);
+}

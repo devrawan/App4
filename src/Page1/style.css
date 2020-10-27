@@ -1,0 +1,13 @@
+.dot{
+      position: absolute;
+left: 28.88%;
+right: 66.95%;
+top: 20.7%;
+bottom: 73.83%;
+}
+.conpage1{
+    width: 45%;
+    height: 900px;
+    background-image: url("./Group.png");
+    
+}

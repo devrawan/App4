@@ -1,0 +1,34 @@
+.logo p{
+    position: absolute;
+width: 59px;
+height: 16px;
+left: 136px;
+top: 76px;
+
+font-family: Raanana;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 16px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+.img1-logo{
+    position: relative;
+    width: 36.37px;
+    height: 36.12px;
+    left: 100.45px;
+    top: 90.68px;
+    transform: rotate(-3.3deg);
+
+}
+.img2-logo{
+    position: relative;
+    width: 36.37px;
+    height: 36.12px;
+    left: 89px;
+    top: 38px;
+    transform: rotate(1.7deg);
+}

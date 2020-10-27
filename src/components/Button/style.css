@@ -1,0 +1,45 @@
+.cbtn{
+    position: relative;
+    width: 426px;
+    height: 58px;
+    left: 137px;
+    top: 264px;
+    background-color: #1565D8;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+   
+}
+.cbtn :hover{
+   border-color:rgba(134, 146, 166, 1);
+}
+.bbtn :hover{
+    border-color: rgb(227, 12, 12);
+}
+.bbtn{
+    position: relative;
+    width: 426px;
+    height: 58px;
+    left: 137px;
+    top: 264px;
+    background-color: #fff;
+    border-radius: 6px;
+    border: none;
+    color: #000;
+    
+}
+.bbtn :hover{
+    box-shadow: 0px 10px -14px 14px #FFF;
+
+}
+
+.txt{
+    font-size: 18px;
+}
+
+.im{
+    position: relative;
+    left: 137px;
+    top: 264px;
+    width: 50px;
+}

@@ -1,0 +1,29 @@
+
+
+.e{
+    position: relative;
+    width: 129px;
+    height: 36px;
+    left: 145px;
+    top: 213px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #696F79;
+}
+.input-e{
+    position: relative;
+    width: 426px;
+    height: 58px;
+    left: 145px;
+    top: 215px;
+    border: 1px solid #8692A6;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding-left: 27px;
+    margin-bottom: 11px;
+}

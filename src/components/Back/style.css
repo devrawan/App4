@@ -1,0 +1,31 @@
+
+.back p{
+   
+position: relative;
+width: 39px;
+height: 19px;
+left: 76px;
+    top: 9px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+
+color: #8692A6;
+
+}
+
+
+.imgb{
+    position: relative;
+    left: 46px;
+    top: 47px;
+    right: 25.69%;
+
+    bottom: 8.75%;
+  
+}  
