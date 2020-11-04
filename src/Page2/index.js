@@ -23,17 +23,21 @@ class Page2 extends React.Component {
             this.setState({
                 email: _val
             })
+           
         }else if(_nam=="password"){
             this.setState({
                 password: _val
             })
+           
         }
 
         else if(_nam=="repassword"){
     this.setState({
         repassword: _val
     })
+    
 }
+
 
 
         }
@@ -46,26 +50,26 @@ class Page2 extends React.Component {
 
     handleSubmit = (e) => {
         e.preventDefault();
+        console.log(this.state);
     }
 
     render() {
         return (
             <div className="conpage2">
-                {/* <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet"></link> */}
-                <Back />
+               <Back className={"backk" } />
                 <div className="row-a"><p>Register Individual Account!</p></div>
                 <div className="row-b"><p>For the purpose of gamers regulation, your details are required.</p></div>
-                <form onSubmit={this.handleSubmit}>
-                <Input val={this.state.email} fun={this.fun} sub={this.handleSubmit} nam="email" label="Email address*"/>
-                <Input  val={this.state.password} fun={this.fun} sub={this.handleSubmit} nam="password"  label="Create password*"/>
-                <Input  val={this.state.repassword} fun={this.fun} sub={this.handleSubmit} nam="repassword" label="Reapet password*"/>
+                <form action="#" onSubmit={this.handleSubmit}>
+                <Input classlabel={"e"} type={"text"} className={"input-e"} val={this.state.email} fun={this.fun} sub={this.handleSubmit} nam={"email" }label={"Email address*"} placeholder={"Enter your Email"}/>
+                <Input classlabel={"e"}  type={"password"} className={"input-e"} val={this.state.password} fun={this.fun} sub={this.handleSubmit} nam={"password"}  label={"Create password*"} placeholder={"Enter your password"}/>
+                <Input  classlabel={"e"}   type={"password"} className={"input-e"} val={this.state.repassword} fun={this.fun} sub={this.handleSubmit} nam={"repassword"} label={"Reapet password*"} placeholder={"Enter your reapet password"}/>
                 <div class="ui checkbox">
                     <input type="checkbox" onChange={this.toggleChange} class="hidden"   checked={this.state.isChecked} value={this.state.isChecked}  readonly="" tabindex="0"  /><label className="txtt">I agree to terms  conditions</label>
                 </div>
-                <Button  label="Register Account"/>
+                <Button  onclick={this.handleSubmit} className={"bb"} label="Register Account"/>
                
                 <div><p className="or">OR</p></div>
-                <Button colorr="#fff" label="Register with Google">  </Button>
+                <Button  className={"bb"}  colorr="#fff" label="Register with Google">  </Button>
                 <img src={rr} className="im"/>
                 </form>
             </div>

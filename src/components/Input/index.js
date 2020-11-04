@@ -3,16 +3,18 @@ import "./style.css";
 class Input extends React.Component {
     render() {
         return (
-     <div className="inputt">
-             <label htmlFor="em" className="e">{this.props.label}</label>
-                  <input type="text"
+    <>
+             <label htmlFor="em"  className={this.props.classlabel}>{this.props.label} </label>
+             <input type={this.props.type}
                      onChange={this.props.fun}
                       value={this.props.val}
-                         name={this.props.nam} className="input-e" placeholder={`Enter  your ${this.props.nam}`}></input>
+                         name={this.props.nam} 
+                         className={this.props.className}
+                          placeholder={this.props.placeholder}>
+                          </input>
                    
-              
-            </div>
-
+           
+</>
 
         );
     }

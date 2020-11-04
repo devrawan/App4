@@ -1,11 +1,9 @@
 
-
-.e{
+.ee , .e{
     position: relative;
     width: 129px;
     height: 36px;
     left: 145px;
-    top: 213px;
     font-family: Inter;
     font-style: normal;
     font-weight: bold;
@@ -15,7 +13,14 @@
     align-items: center;
     color: #696F79;
 }
-.input-e{
+.ee{
+    top: 87px;
+}
+.e{
+    top:215px;
+}
+
+.input-e , .input-p{
     position: relative;
     width: 426px;
     height: 58px;
@@ -26,4 +31,7 @@
     border-radius: 6px;
     padding-left: 27px;
     margin-bottom: 11px;
+}
+.input-p{
+    top:88px;
 }

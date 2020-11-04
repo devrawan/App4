@@ -1,0 +1,157 @@
+.left{
+    width: 653px;
+    height: 900px;
+    background-color: royalblue;
+}
+.con3{
+    display: flex;
+}
+
+.row-4{
+    display: none;
+}
+
+.row-1{
+    top:164px;
+    }
+    .row-2{
+        top:244px
+    }
+    .row-3{
+        top:448px;
+    }
+.img-1{
+    position: relative;
+    width: 295px;
+    height: 319px;
+    left: 239px;
+    top: 338px;
+}
+.logo p{
+    top: 0px;
+color: wheat;
+font-family: Righteous;
+font-style: normal;
+font-weight: normal;
+font-size: 72px;
+line-height: 89px;
+}
+
+.img1-logo{
+    position: relative;
+    width: 36.37px;
+    height: 41.12px;
+    left: 90.45px;
+    top: 68.68px;
+    transform: rotate(-9.3deg);
+}
+
+
+.img2-logo{
+    position: relative;
+    width: 38.37px;
+    height: 46.12px;
+    left: 80px;
+    top: 1px;
+    transform: rotate(11.7deg);
+}
+.p11{
+    position: relative;
+    width: 303px;
+    height: 51px;
+    left: 228px;
+    top: 23px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 51px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+
+.p22{
+    position: relative;
+width: 411px;
+height: 28px;
+left: 165px;
+top: -7px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #8692A6;
+}
+
+.ic-1{
+    position: relative;
+    margin: 0px 11px;
+    width: 42px;
+    height: 36px;
+    left: -285px;
+    top: -10px;
+    float: right;
+    background: #FFFFFF;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+border-radius: 6px;
+}
+
+
+.img-2{
+    width: 22px;
+    height: 21px;
+    padding-left: 10px;
+    padding-top: 6px;
+}
+.p33{
+    position: relative;
+    width: 14px;
+    height: 15px;
+    left: 334px;
+    top: 62px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #BABABA;
+    
+}
+
+
+.p44{
+    position: relative;
+width: 247px;
+height: 19px;
+left: 235px;
+    top: 145px;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+
+color: #696F79;
+}
+.register{
+    color: #1565D8;
+}
+.p44:hover{
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+}

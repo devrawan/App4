@@ -1,14 +1,22 @@
-.cbtn{
+.cbtn , .bb{
     position: relative;
     width: 426px;
     height: 58px;
     left: 137px;
-    top: 264px;
+    top: 149px;
     background-color: #1565D8;
     border-radius: 6px;
     border: none;
     color: #fff;
    
+}
+
+.cbtn{
+    top:149px;
+} 
+
+.bb{
+    top:265px;
 }
 .cbtn :hover{
    border-color:rgba(134, 146, 166, 1);
