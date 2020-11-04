@@ -1,19 +1,21 @@
-.logo p{
+
+
+.loggo p{
+ 
     position: absolute;
-width: 59px;
-height: 16px;
-left: 136px;
-top: 76px;
-
-font-family: Raanana;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 16px;
-display: flex;
-align-items: center;
-
-color: #FFFFFF;
+    color: #fff;
+    font-size: 19px;
+    line-height: 16px;
+    top: 48px;
+    left: 127px;
+}
+.loggo3{
+    position: absolute;
+    color: #fff;
+    font-size: 51px;
+    line-height: 16px;
+    top: 13px;
+    left: 140px;
 }
 .img1-logo{
     position: relative;

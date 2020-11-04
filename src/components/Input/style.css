@@ -1,9 +1,22 @@
+.error{
+    color: red;
+    position: relative;
+    top: 133px;
+    left: 287px;
+}
+.errorss{
+    top: 45px;
+    left: 279px;
+    color: red;
+    position: relative;
+}
 
 .ee , .e{
     position: relative;
     width: 129px;
     height: 36px;
-    left: 145px;
+    left: 176px;
+    margin-top: 18px;
     font-family: Inter;
     font-style: normal;
     font-weight: bold;
@@ -14,24 +27,30 @@
     color: #696F79;
 }
 .ee{
-    top: 87px;
+    top: 51px;
+    font-size: 13px;
 }
 .e{
-    top:215px;
+    top:141px;
 }
 
 .input-e , .input-p{
     position: relative;
     width: 426px;
     height: 58px;
-    left: 145px;
-    top: 215px;
-    border: 1px solid #8692A6;
+    left: 175px;
+    top: 144px;
+    border: 1px solid #000;
     box-sizing: border-box;
     border-radius: 6px;
     padding-left: 27px;
     margin-bottom: 11px;
 }
 .input-p{
-    top:88px;
+    top:50px;
+}
+
+.errors{
+    border: 1px solid red;
+   
 }

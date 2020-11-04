@@ -2,7 +2,7 @@
     position: relative;
     width: 426px;
     height: 58px;
-    left: 137px;
+    left: 180px;
     top: 149px;
     background-color: #1565D8;
     border-radius: 6px;
@@ -12,11 +12,11 @@
 }
 
 .cbtn{
-    top:149px;
+    top:99px;
 } 
 
 .bb{
-    top:265px;
+    top:169px;
 }
 .cbtn :hover{
    border-color:rgba(134, 146, 166, 1);
@@ -28,8 +28,8 @@
     position: relative;
     width: 426px;
     height: 58px;
-    left: 137px;
-    top: 264px;
+    left: 194px;
+    top: 198px;
     background-color: #fff;
     border-radius: 6px;
     border: none;

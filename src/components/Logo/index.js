@@ -10,7 +10,7 @@ render(){
    <div className="conlogo">
        <div ><img  src={img1}  className="img1-logo"/> </div>
        <div ><img  src={img2}  className="img2-logo"/></div>
-       <div className="logo"><p>Gamers</p></div>
+       <div className={this.props.nalogo}><p>Gamers</p></div>
         </div>
     );
 }

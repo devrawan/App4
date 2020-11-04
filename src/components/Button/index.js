@@ -7,7 +7,7 @@ render(){
     const colo = this.props.colorr;
     return(
   
-      <button type="button"  onSubmit={this.props.onclick} className={`${this.props.className} ${colo==="#fff" ? "bbtn" : ""}`}  > <p className="txt" >{this.props.label} </p></button>
+      <button type={this.props.type}  onSubmit={this.props.onclick} className={`${this.props.className} ${colo==="#fff" ? "bbtn" : ""}`}  > <p className="txt" >{this.props.label} </p></button>
       
     );
 }

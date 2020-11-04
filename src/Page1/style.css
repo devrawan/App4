@@ -1,13 +1,106 @@
 .dot{
-      position: absolute;
-left: 28.88%;
-right: 66.95%;
-top: 20.7%;
-bottom: 73.83%;
+    position: absolute;
+    left: 25.88%;
+    right: 66.95%;
+    top: 24.7%;
+    bottom: 73.83%;
 }
-.conpage1{
-    width: 45%;
+
+.leftt{
+    width: 563px;
     height: 900px;
     background-image: url("./Group.png");
+}
+
+.conpage1{
+    display: flex;
+}
+
+
+.row-a p{
+    position: absolute;
+width: 415px;
+height: 36px;
+left: 732px;
+top: 52px;
+
+font-family:Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+.row-b p{
+        position: absolute;
+    width: 411px;
+    height: 56px;
+    left: 736px;
+    top: 122px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #8692A6;
+}
+.or{
+
+    position: relative;
+    width: 14px;
+    height: 15px;
+    left: 385px;
+    top:188px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #5a5656;
+
+}
+.hidden{
+    position: relative;
+    left:40.74%;
+    right: 20.7%;
+    top: 157px;
+    bottom: 28.6%;
+
+background: #FFFFFF;
+}
+
+.txtt{
     
+position: relative;
+width: 220px;
+height: 19px;
+
+left: 215px;
+top: 137px;
+
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+
+color: #696F79;
+} 
+.im{
+    position: relative;
+    left: -166px;
+    top: 210px;
+    width: 38px;
 }
