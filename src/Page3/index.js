@@ -1,4 +1,9 @@
-import React from 'react';
+import React,  { Component } from "react";
+import {
+  Link,
+} from "react-router-dom";
+
+// import React from 'react';
 import * as yup from 'yup';
 import Quote from '../components/Quote';
 import Logo from '../components/Logo';
@@ -10,6 +15,7 @@ import img3 from "./ico-twitter.png";
 import img4 from "./ico-in.png";
 import img5 from "./ico-git.png";
 import "./style.css";
+import Page1 from '../Page1';
 class Page3 extends React.Component {
     state = {
         emaill: "",
@@ -37,6 +43,7 @@ class Page3 extends React.Component {
 
         }
 
+        
 
     handleSubmit = (e) => {
         e.preventDefault();
@@ -64,6 +71,7 @@ class Page3 extends React.Component {
 
 
     render() {
+        
         return (
             <div className="con33">
                 <div className="left" >
@@ -85,7 +93,12 @@ class Page3 extends React.Component {
                 <Input  status={"errorss"} error={this.state.errors.emaill}  classlabel={"ee"}  type={"text"} classNamee={"input-p"} label={" Enter Your Email" }nam={"emaill"} placeholder={"Enter your email"}/>
                 <Input   status={"errorss"} error={this.state.errors.passwordd} classlabel={"ee"}  type={"password"} classNamee={"input-p"} label={"Enter your password"} nam={"passwordd"} placeholder={"Enter your password"}/>
                 <Button   type="submit"   className={"cbtn"} classlabel={"ee"}  label="Login"/>
-                <p className="p44">Don’t have an account? <p className="register">Register</p> </p>
+               
+               
+             
+                   <Link to='Register'><p className="p44"> Don’t have an account? <p className="register">Register</p> </p></Link> 
+               
+    
                 </form>
                      </div>
             </div>

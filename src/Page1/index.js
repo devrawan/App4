@@ -27,7 +27,7 @@ class Page1 extends React.Component {
 
 
 
-    fun = (e) => {
+    onchange = (e) => {
         const _val = e.target.value;
         const _nam = e.target.name;
         if(_nam==="email"){
@@ -62,7 +62,8 @@ class Page1 extends React.Component {
       const registerschema = yup.object().shape({
           email : yup.string().email().required(),
           password: yup.string().matches().required(),
-          repassword : yup.string().required()
+          repassword : yup.string().required(),
+          isChecked: yup.boolean().typeError("You must check").required(),
       });
       registerschema.validate({email,password,repassword},{abortEarly:false}).then(data =>{
           console.log("valid")
@@ -88,15 +89,26 @@ render(){
         <Quote/>
        </div>
        <div className="rightt">
-               <Back className={"backk" } />
+               <Back   className={"backk" } />
                 <div className="row-a"><p>Register Individual Account!</p></div>
                 <div className="row-b"><p>For the purpose of gamers regulation, your details are required.</p></div>
                 <form action="#" onSubmit={this.handleSubmit}>
-                <Input  status={"error"} error={this.state.errors.email} classlabel={"e"} type={"text"} classNamee={"input-e"} val={this.state.email} fun={this.fun}  nam={"email" }label={"Email address*"} placeholder={"Enter your Email"}/>
+
+                <Input  status={"error"} 
+                error={this.state.errors.email}
+                 classlabel={"e"} 
+                 type={"text"}
+                  classNamee={"input-e"}
+                   val={this.state.email} 
+                   fun={this.onchange} 
+                    nam={"email" }
+                    label={"Email address*"} 
+                    placeholder={"Enter your Email"}/>
+
                 <Input  status={"error"} error={this.state.errors.password} classlabel={"e"}  type={"password"} classNamee={"input-e"} val={this.state.password} fun={this.fun}  nam={"password"}  label={"Create password*"} placeholder={"Enter your password"}/>
                 <Input  status={"error"} error={this.state.errors.repassword} classlabel={"e"}   type={"password"} classNamee={"input-e"} val={this.state.repassword} fun={this.fun} nam={"repassword"} label={"Reapet password*"} placeholder={"Enter your reapet password"}/>
                 <div class="ui checkbox">
-                    <input type="checkbox" onChange={this.toggleChange} class="hidden"   checked={this.state.isChecked} value={this.state.isChecked}  readonly="" tabindex="0"  /><label className="txtt">I agree to terms  conditions</label>
+                    <input type="checkbox" error={this.state.errors.repassword} onChange={this.toggleChange} class="hidden"   checked={this.state.isChecked} value={this.state.isChecked}  readonly="" tabindex="0"  /><label className="txtt">I agree to terms  conditions</label>
                 </div>
                 <Button  type="submit" className={"bb"} label="Register Account"/>
                
